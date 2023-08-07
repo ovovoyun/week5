@@ -1,0 +1,11 @@
+#addModal, #editModal{
+    .modal-body{ 
+        height: 65vh;
+        overflow-y: scroll;
+    }
+}
+
+.form-check-input:checked {
+    background-color: $dark;
+    border-color: $dark;
+}
