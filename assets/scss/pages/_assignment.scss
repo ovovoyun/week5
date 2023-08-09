@@ -1,0 +1,17 @@
+.list-group-item.active{
+    background-color: $gray-100;
+    border-color: $gray-400;
+    color: $dark;
+}
+
+.userImg{
+    @include size(40px, 40px);
+}
+
+.tag-robotoMono{
+    padding: 0 4px;
+    font-size: 14px;
+    color: $success;
+    background-color: $gray-100;
+    font-family: "Roboto Mono", sans-serif;
+}

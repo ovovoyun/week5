@@ -6,6 +6,10 @@
     margin-top: 32px;
 }
 
+.mb-6{
+    margin-bottom: 6px;
+}
+
 .mb-12{
     margin-bottom: 12px;
 }
@@ -27,6 +31,10 @@
 }
 
 //padding
+.p-12{
+    padding: 12px;
+}
+
 .p-32{
     padding: 32px;
 }
@@ -41,9 +49,17 @@
     background-color: $gray-100;
 }
 
-//font-size
+//text
+.text-gray600{
+    color: $gray-600;
+}
+
 .fs-14{
     font-size: 14px;
+}
+
+.fs-12{
+    font-size: 12px;
 }
 
 //border
@@ -51,11 +67,15 @@
     border: 1px solid blue;
 }
 
+.border-gray400{
+    border: 1px solid $gray-400;
+}
+
 .radius-2{
     border-radius: 2px;
 }
 
+//others
 .pointer{
     cursor: pointer;
 }
-
