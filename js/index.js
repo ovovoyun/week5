@@ -39,16 +39,4 @@ document.addEventListener("DOMContentLoaded", function () {
         table__upIcon.classList.toggle("d-none");
         table__downIcon.classList.toggle("d-none");
     })
-
-    /*---- viewModal arrowIcon-----*/
-    const viewModal__arrowBtn = document.getElementById("viewModal__arrowBtn");
-    const viewModal__upIcon = document.getElementById("viewModal__upIcon");
-    const viewModal__downIcon = document.getElementById("viewModal__downIcon");
-    const viewModal__saveBlock = document.getElementById("viewModal__saveBlock");
-
-    viewModal__arrowBtn.addEventListener("click", function () {
-        viewModal__upIcon.classList.toggle("d-none");
-        viewModal__downIcon.classList.toggle("d-none");
-        viewModal__saveBlock.classList.toggle("d-none");
-    });
 });

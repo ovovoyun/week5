@@ -63,7 +63,7 @@
 
     <!-- addModal -->
     <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content border-0 radius-2">
                 <div class="modal-header border-bottom-0 p-32">
                     <h5 class="modal-title fw-bold fs-4" id="exampleModalLabel">New Admin</h5>
@@ -150,7 +150,7 @@
     
     <!-- viewModal -->
     <div class="modal fade" id="viewModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content border-0 radius-2">
                 <div class="modal-body d-flex p-32">
                     <img src="../assets/images/emir.jpeg" alt="userImg" class="s-140 me-4">
@@ -164,12 +164,13 @@
                         <p class="mb-3 fs-14">emir.wicks@mail.com</p>
                         <div class="d-flex justify-content-between">
                             <span class="bg-gray100 py-1 px-2">Verified</span>
-                            <div id="viewModal__arrowBtn" class="d-flex align-items-center pointer">
-                                <i id="viewModal__downIcon" class="bi bi-chevron-down text-success"></i>
-                                <i id="viewModal__upIcon" class="bi bi-chevron-up text-success d-none"></i>
-                            </div>
+                            <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <i id="viewModal__downIcon" class="bi bi-chevron-down text-success expand_more"></i>
+                                <i id="viewModal__upIcon" class="bi bi-chevron-up text-success expand_less"></i>
+                            </button>
+                            
                         </div>
-                        <div id="viewModal__saveBlock" class="d-flex justify-content-end mt-32 d-none">
+                        <div class="collapse mt-32" id="collapseExample">
                             <button type="button" class="btn btn-outline-danger me-3 px-32 py-2 radius-2 fw-bold">Deactivate</button>
                             <button type="button" class="btn btn-success px-32 py-2 radius-2 fw-bold">Edit</button>
                         </div>
@@ -181,7 +182,7 @@
 
     <!-- editModal -->
     <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content border-0 radius-2">
                 <div class="modal-header border-bottom-0 p-32">
                     <h5 class="modal-title fw-bold fs-4" id="exampleModalLabel">Edit Admin</h5>
