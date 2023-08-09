@@ -20,6 +20,7 @@
 + `npm i glob`
 + `npm i vite-plugin-live-reload` 檔案儲存，網頁自動重新整理(vite.config.js)
 + `npm install datatables.net datatables.net-bs5` dataTable
++ `npm i ckeditor4`
 
 ### 指令
 + `npm i` [初次 clone 專案](https://github.com/hexschool/web-layout-training-vite)需執行，產生 node_modules
