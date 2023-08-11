@@ -3,14 +3,6 @@
     border-color: $dark;
 }
 
-.expand_more {
-    display: none;
-}
-
-.expand_less {
-    display: inline-block;
-}
-
 .collapsed {
     .expand_more {
         display: inline-block;
@@ -19,4 +11,12 @@
     .expand_less {   
         display: none;
     }
+}
+
+.expand_more {
+    display: none;
+}
+
+.expand_less {
+    display: inline-block;
 }
