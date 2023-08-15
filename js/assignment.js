@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const activeClass = (item === data[0]) ? "active" : "";
         
         return `
-            <li class="list-group-item p-12 ${activeClass}">
+            <li class="list-group-item list-group-item-action p-12 ${activeClass}">
                 <div class="d-flex justify-content-between mb-1">
                     <h5 class="fs-12 mb-0">${item.subTitle}</h5>
                     <span class="fs-12">${item.time} hrs ago</span>
